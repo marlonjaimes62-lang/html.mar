@@ -1,0 +1,124 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Blog y Formulario - Ejemplo Completo</title>
+</head>
+<body>
+
+  <!-- 1 y 2: Estructura semántica con etiquetas adecuadas -->
+  <header>
+    <h1>Mi Blog Personal</h1>
+    <p>Bienvenido a mi espacio en la web</p>
+  </header>
+
+  <!-- 3: Barra de navegación secundaria con listas -->
+  <nav>
+    <ul>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+      <li><a href="#registro">Registro</a></li>
+    </ul>
+  </nav>
+  <!-- Sección principal con contenido del blog -->
+  <main>
+    <section id="blog">
+      <article>
+        <h2>Primer artículo</h2>
+        <p>Este es un artículo de prueba sobre el uso de HTML semántico.</p>
+        <!-- 5: Imagen con atributo alt para accesibilidad -->
+        <img src="https://via.placeholder.com/300" alt="Imagen ilustrativa del blog">
+      </article>
+    </section>
+
+    <!-- 4: Sección de contacto con formulario validado -->
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form>
+        <label for="nombre">Nombre:</label><br>
+        <label for="nombres">Nombres:</label><br>
+          <input type="text" id="nombres" name="nombres" required><br><br>
+
+          <label for="apellidos">Apellidos:</label><br>
+          <input type="text" id="apellidos" name="apellidos" required><br><br>
+
+          <label for="direccion">Dirección:</label><br>
+          <input type="text" id="direccion" name="direccion" required><br><br>
+
+          <label for="telefono2">Teléfono:</label><br>
+          <input type="tel" id="telefono2" name="telefono2" pattern="[0-9]{7,10}" required><br><br>
+
+          <label for="genero">Género:</label><br>
+          <select id="genero" name="genero" required>
+            <option value="">Seleccione</option>
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+            <option value="otro">Otro</option>
+          </select><br><br>
+
+          <label for="gustos">Gustos:</label><br>
+          <textarea id="gustos" name="gustos" required></textarea><br><br>
+
+        </fieldset>
+         <button type="submit">Registrar</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- 9: Enlaces internos y externos -->
+  <footer>
+    <input type="text" id="nombre" name="nombre" required minlength="2" maxlength="30"><br><br>
+
+        <label for="email">Correo:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="telefono">Teléfono:</label><br>
+        <input type="tel" id="telefono" name="telefono" pattern="[0-9]{7,10}" required><br><br>
+
+        <button type="submit">Enviar</button>
+ </form>
+    </section>
+
+    <!-- 6: Tabla simulando el listado de datos del formulario -->
+    <section>
+      <h2>Listado de Contactos</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Email</th>
+            <th>Teléfono</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Juan Pérez</td>
+            <td>juan@mail.com</td>
+            <td>3124567890</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">Fin del listado</td>
+ </tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <!-- 7 y 8: Formulario de registro con validaciones, fieldset y legend -->
+    <section id="registro">
+      <h2>Formulario de Registro</h2>
+      <form>
+        <fieldset>
+          <legend>Datos Personales</legend>
+          <p>Ir al <a href="#blog">inicio del blog</a> | Visita <a href="https://openai.com" target="_blank">OpenAI</a></p>
+  </footer>
+
+</body>
+</html>
+```
+
+
+
+
