@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double+Ink:wght@100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+.contenedor {
+  width: 90vw;        
+  height: 90vh; 
+}
+.card{
+  width: 320px;
+  background-color: #f2f2f2;
+  padding: 0.5em;
+  margin: 0.8em;
+  display: inline-block;
+}
+.card img{
+  display: block;
+  max-height: 280px;
+  margin: 16px auto;
+  filter: drop-shadow(2px 0px 8px #515151);
+}
+.card h2{
+  text-align: center;
+  font-family: 'Bitcount Grid Double Ink', sans-serif;
+  font-size: 26px; 
+  font-style:italic;
+  font-weight: 600;
+
+}
+.punto1{
+    background-color:#F54927;
+}
+.puntoc{
+  background-color: rgb(200, 50, 100);
+}
+.puntoc1{
+  background-color: rgb(200, 50, 90);
+}
+.puntoc2{
+  background-color: rgb(200, 50, 80);
+}
+.puntoc3{
+  background-color: rgb(200, 50, 70);
+}
+.puntoc4{
+  background-color: rgb(200, 50, 60);
+}
+.puntod{
+  background-color: rgba(0,250,0,0.25);
+  background-image: linear-gradient(yellow,red);
+}
+div{
+  background-image: url(characters/Zeno_Artwork.webp);
+  background-repeat:no-repeat;
+  background-position: 0%;
+  background-size: 3cm;
+  background-attachment: scroll;
+}
+.puntoe{
+  background: radial-gradient(#e66465, #9198e5);
+}
+.puntoc1 h2{
+   text-transform: uppercase;
+  letter-spacing: 0.2cm;
+  text-align: center;
+  text-shadow: 1px 1px 2px #222222;
+}
+.puntof h2 {
+font-size: 1.3rem;    
+line-height: 1.8rem;   
+margin-bottom:1.2rem;
+}
