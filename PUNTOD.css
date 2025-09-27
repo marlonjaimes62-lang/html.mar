@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.imagen{
+ margin-right: 15px;
+ float: left;
+}
+.imagen{
+    width: 40px;
+}
+.contenedor{
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  
+}
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+ position: absolute;top: 0%;
+}
+.nav-list .btn {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  
+}
+.person{
+    width: 600px;
+    margin-left: 50%;
+    position: absolute;top: 20%;
+
+}
+.selectores h1{
+font-size: 15px;
+position: absolute;
+right: 900px;
+margin-top: 5px;
+border:none;
+cursor:pointer;
+}
+.selectores h2{
+font-size: 15px;
+position: absolute;
+right: 800px;
+margin-top: 5px;
+border:none;
+cursor:pointer;
+}
+.selectores h3{
+font-size: 15px;
+position: absolute;
+right: 700px;
+margin-top: 5px;
+border:none;
+cursor:pointer;
+}
+.selectores h4{
+font-size: 20px;
+position: absolute;
+right: 600px;
+margin-top: 5px;
+background-color: #007bff;
+border-radius: 20px;
+}
+.texto h1{
+    position:absolute;
+    height: 10%;
+    top: 50%;
+    left: 20%;
+    height: 10%;
+    right: 50%;
+}
+.texto h2{
+     position:absolute;
+    height: 10%;
+    top: 56%;
+    left: 20%;
+    height: 10%;
+    right: 50%;
+}
+.texto h3{
+       position:absolute;
+    height: 10%;
+    top: 65%;
+    left: 20%;
+    height: 10%;
+    right: 50%;
+}
+.boton{
+      position:absolute;
+    margin-top: 550px;
+    left: 305px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: white;
+}
+
+
+
+
+
+  
+
+  
+
